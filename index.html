@@ -3,8 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
-<body>
-	
+<body id="body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 text-center">
+				<h1>Wikipedia Viewer</h1>
+			</div>
+		</div>
+    	<br>
+    	<div class="row">
+			<form class="form-horizontal">
+    			<div class="col-md-4 col-md-offset-4">
+    				<div class="form-group">
+    					<div class="input-group has-feedback search">
+    						<input type="text" placeholder="Search" class="getInput"><span class="glyphicon glyphicon-search form-control-feedback"></span>
+    					</div>
+    				</div>
+    			</div>
+    		</form>
+    	</div>
+
+    	<div class="row">
+    		<div class="col-md-4 col-md-offset-4 text-center">
+    			<div class="btn btn-default outline">
+					<strong><a href="https://en.wikipedia.org/wiki/Special:Random" class="random">Surprise ME!</a></strong>
+    			</div>
+    		</div>
+    	</div>
+	</div>	
 </body>
 </html>

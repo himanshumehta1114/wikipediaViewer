@@ -1,0 +1,19 @@
+#body {
+	background:#2c3e50;
+	color: #fff;
+}
+
+.search {
+	color: #000;
+}
+
+.getInput {
+	width:400px;
+}
+
+.btn-default.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+
+	
+}
