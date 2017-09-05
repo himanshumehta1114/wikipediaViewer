@@ -1,10 +1,10 @@
 #body {
-	background:#2c3e50;
+	background:#f39c12;
 	color: #fff;
 }
 
 .search {
-	color: #000;
+	color: #f39c12;
 }
 
 .getInput {
@@ -12,8 +12,6 @@
 }
 
 .btn-default.outline {
-	border: 2px solid #0099cc;
-	color: #0099cc;
-
-	
+	border: 2px solid #f39c12;
+	color: #f39c12;
 }
